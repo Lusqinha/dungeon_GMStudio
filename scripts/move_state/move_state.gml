@@ -1,5 +1,15 @@
 script_execute(key_input())
 
+if keyboard_check(vk_anykey){
+
+sprite_index=sPlayer_anda
+
+}else{
+
+sprite_index=sPlayer
+
+}
+
 // move
 xaxis = (k_right - k_left);
 

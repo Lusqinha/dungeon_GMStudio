@@ -1,46 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-window_set_size(1280,720)
+window_set_size(800,600)
+
+velh = 0
+velv = 0
+dir = 0
 
 
-function walk()
-{
-if keyboard_check((ord("W"))){
+
+
+function walk(){
 	
-	y-=SPEED
-
-}else if keyboard_check(ord("S")){
-
-	y+=SPEED
-}
-
-if keyboard_check(ord("A")){
-
-	x-=SPEED
-	image_xscale=-1
-
-}else if keyboard_check(ord("D")){
-
-	x+=SPEED
-	image_xscale=1
-
-}
-
-if keyboard_check(vk_anykey){
-
-sprite_index=sPlayer_anda
-
-}else{
-
-sprite_index=sPlayer
-
-}
-}
-
-function check_life()
-{
-
-if LIFE <= 0{ room_restart() }
-
+	var tc = keyboard_check(ord("W"))
+	var tb = keyboard_check(ord("S"))
+	var te = keyboard_check(ord("A"))
+	var td = keyboard_check(ord("D"))
+	
+	dir = point_direction(0, 0, td - te, tb - tc)
+	
+	var tecla = td - te != 0 || tb - tc !=0
+	
+	velh = lengthdir_x(SPEED*tecla, dir)
+	velv = lengthdir_y(SPEED*tecla, dir)
+	
+	
+	x+= velh
+	y+= velv
+	
+	
+	
 }
