@@ -2,4 +2,6 @@
 
 	
 // atividades
-walk()
+script_execute(move_state())
+
+check_life()

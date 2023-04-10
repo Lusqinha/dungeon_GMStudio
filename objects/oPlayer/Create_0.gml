@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+window_set_size(1280,720)
+
 
 function walk()
 {
@@ -34,4 +36,11 @@ sprite_index=sPlayer_anda
 sprite_index=sPlayer
 
 }
+}
+
+function check_life()
+{
+
+if LIFE <= 0{ room_restart() }
+
 }
