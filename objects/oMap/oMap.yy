@@ -30,10 +30,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"cell_size","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"32","varType":1,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite19",
-    "path": "sprites/Sprite19/Sprite19.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

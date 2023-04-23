@@ -18,9 +18,9 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Enemy","order":4,"path":"folders/Sprites/Enemy.yy",},
     {"name":"Player","order":2,"path":"folders/Sprites/Player.yy",},
+    {"name":"Sprite_pack","order":11,"path":"folders/Sprites/Sprite_pack.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Sprite_pack","order":11,"path":"folders/Sprites/Sprite_pack.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oCam","order":7,"path":"objects/oCam/oCam.yy",},
@@ -28,7 +28,6 @@
     {"name":"s_player_shadow","order":1,"path":"sprites/s_player_shadow/s_player_shadow.yy",},
     {"name":"s_wall_tiles","order":4,"path":"sprites/s_wall_tiles/s_wall_tiles.yy",},
     {"name":"s_floor","order":6,"path":"sprites/s_floor/s_floor.yy",},
-    {"name":"Sprite19","order":16,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"s_shadow","order":3,"path":"sprites/s_shadow/s_shadow.yy",},
     {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"bg","order":8,"path":"sprites/bg/bg.yy",},
